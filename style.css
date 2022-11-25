@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(220, 248, 248);
+}
+
+#search h1 {
+    text-align: center;
+    padding-bottom: 29px;
+    padding-top: 12px;
+}
+
+#bgChangeColor {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    height: 50px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0 0 25px 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40vw;
+   
+    display: flex;
+}
+
+#search input {
+    padding-left: 8px;
+    font-size: large;
+    margin: 25px;
+    width: 300px;
+    height: 44px;
+}
+
+#btn {
+    padding: 9px;
+    width: 90px;
+    font-size: large;
+}
+
+#main-app {
+    width: 90vw;
+    margin: auto
+}
+
+#app {
+    border: 5px solid rgb(179, 177, 177);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px
+}
+
+#search {
+    margin-top: 22px;
+    border: 6px solid rgb(203, 198, 198);
+}
+
+#input {
+    scale: 2;
+    /* color:rebeccapurple */
+}
